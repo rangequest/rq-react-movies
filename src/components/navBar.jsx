@@ -1,11 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-const Navigation = () => {
+import { NavLink, Link } from "react-router-dom";
+const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-3">
-      <NavLink className="navbar-brand" to="/">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <Link className="navbar-brand" to="/">
         RQ Movies
-      </NavLink>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -34,4 +34,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavBar;
