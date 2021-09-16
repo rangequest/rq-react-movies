@@ -8,10 +8,13 @@ import Rentals from './components/rentals'
 import NotFound from './components/notFound'
 import LoginForm from './components/loginForm'
 import RegisterForm from './components/registerForm'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
     <React.Fragment>
+      <ToastContainer />
       <NavBar />
       <main role="main" className="container">
         <Switch>
