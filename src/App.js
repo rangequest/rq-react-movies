@@ -1,12 +1,12 @@
-import React from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
-import NavBar from "./components/navBar";
-import Movies from "./components/movies";
-import MovieForm from "./components/movieForm";
-import Customers from "./components/customers";
-import Rentals from "./components/rentals";
-import NotFound from "./components/notFound";
-import LoginForm from "./components/common/loginForm";
+import React from 'react'
+import { Route, Switch, Redirect } from 'react-router-dom'
+import NavBar from './components/navBar'
+import Movies from './components/movies'
+import MovieForm from './components/movieForm'
+import Customers from './components/customers'
+import Rentals from './components/rentals'
+import NotFound from './components/notFound'
+import LoginForm from './components/common/loginForm'
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         </Switch>
       </main>
     </React.Fragment>
-  );
+  )
 }
 
-export default App;
+export default App
