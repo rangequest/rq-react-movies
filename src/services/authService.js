@@ -1,8 +1,7 @@
 import http from './httpService'
-import { apiUrl } from '../config.json'
 import jwtDeocode from 'jwt-decode'
 
-const apiEndpoint = apiUrl + '/auth'
+const apiEndpoint = '/auth'
 const tokenKey = 'rq-token'
 
 export const login = async (email, password) => {
