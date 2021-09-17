@@ -5,6 +5,8 @@ import jwtDeocode from 'jwt-decode'
 const apiEndpoint = apiUrl + '/auth'
 const tokenKey = 'rq-token'
 
+http.setJwt(getJwt())
+
 export const login = async (email, password) => {
   const { data: jwt } = await http.post(apiEndpoint, { email, password })
   localStorage.setItem(tokenKey, jwt)
