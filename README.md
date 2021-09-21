@@ -14,3 +14,7 @@ heroku open
 ## Node Backend
 
 https://github.com/rangequest/rq-movies
+
+# Google Compute Engine Deployment
+
+https://github.com/rangequest/rq-movies#readme
